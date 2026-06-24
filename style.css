@@ -92,6 +92,11 @@ body{
     line-height: 1.2;
     margin-bottom: 20px;
 }
+.banner-content h2{
+font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
 
 .banner-content p {
     font-size: 14px;
