@@ -431,3 +431,58 @@ footer{
     max-width:1200px;
     margin:0 auto;
 }
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .banner{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner-content h1{
+        font-size: 32px;
+    }
+
+    .about,
+    .service-box,
+    .team-box,
+    .review-box,
+    .blog-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image img{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .about-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card,
+    .member,
+    .review-card,
+    .blog-card{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .counter{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
